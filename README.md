@@ -2,7 +2,7 @@
 
 ## Red-social
 ### Nuestra red social  es *incógnita*
-![Image text](https://i.ibb.co/23pRRHj/download.png)
+![Image text](assets/img/incognito.png)
 ## Problematicas: 
 ### Actualmente existen muchas personas con problemas para expresarse, para liberar y contar lo que piensan y sienten por miedo a ser juzgados y ser señalados, se podría decir que no se sienten a gusto contar sus problemas a personas conocidas porque ya conocerían su imagen.
 ## Usuarios dirigidos:
