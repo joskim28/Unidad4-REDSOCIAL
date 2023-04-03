@@ -33,9 +33,9 @@ Refleja seguridad,confianza además es sinónimo de calma,estabilidad y es asoci
 Es un color neutro que esta asociado con la tranquilidad y seguridad.
 
 ### Link de nuestro proyecto:
-### https://red-social-unidad-4.nicolealdana.repl.co/
+### https://incognito-4unidad.nicolealdana.repl.co/
 ### Link de Git Hub Pages: 
-### https://joskim28.github.io/Red-social-unidad-4/
+### https://joskim28.github.io/Unidad4-REDSOCIAL/
 ###  Historias de usuario:
 ![Image text](https://github.com/joskim28/Red-social-unidad-4/blob/main/Historias-de-usuario/1.jpg)
 ![Image text](https://github.com/joskim28/Red-social-unidad-4/blob/main/Historias-de-usuario/2.jpg)
