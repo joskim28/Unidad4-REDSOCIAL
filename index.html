@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport"
+  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incógnito...</title>
+    <link rel="shortcut icon" href="assets/img/logo-no_definido__2_-removebg-preview (1).png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/styleMain.css">
+  <link rel="stylesheet" href="assets/css/nav.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/oscuro.css">
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai 2' rel='stylesheet'>
+</head>
+<body>
+
+  <header id="header"></header>
+  <main id="main"><div class="center">
+    <div id="main" class="main">
+      <section class="index-img-message">
+        <img src="assets/img/Canva-general-removebg-preview.png" alt="social network" class="index-img">
+        <!--cambiar por <p>-->
+        <p class="index-message" >
+
+En incógnito podrás hacer publicaciones escritas donde cuentes una experiencia personal o cualquier anécdota no ofensiva para el público, lo mejor...   
+<br><br>
+Nadie sabrá que eres tú y recuerda “es nuestro secreto” 
+        </p>
+      </section>
+      <section class="card-login">
+        <div> 
+         <!-- <img src="assets/img/social-network.png" alt="social network" class="img-login-mobile">-->
+          <div class="icon-coderplace">
+            <img src="assets/img/logo-no_definido__1_-removebg-preview.png" alt="Ícono CoderPlace">
+          
+          </div >
+          <h4 class="welcome">¡Tu secreto, es nuestro secreto!</h4>
+        </div>
+        <div class="container-inputs">
+          <form id="login-form">
+    <input type="email" placeholder="Correo" class="input-login" id="email" >
+    <input type="password" placeholder="Contraseña" class="input-login" id="password">
+    <button type="submit" class="log-in" id="btnLogIn">Iniciar Sesión</button>
+  </form>
+    <p>O Puedes ingresar con...</p>
+    <div class="rrss">
+      <img src="assets/img/facebook.png" alt="Ícono Facebook" id="btnFacebook">
+      <img src="assets/img/google.png" alt="Ícono google" id="btnGoogle">
+
+     <br><br>
+        <div class="row">
+            <div class="col text-center">
+                <label id="switch"class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div> 
+
+
+    </div></div>
+        <span class="alertLogInSignUp" id="alertLogInSignUp"></span>
+        <div class="register">
+    <p>¿No tienes una cuenta?<a id="Registrar" href="#/signup">Regístrate</a></p></div>
+      </section>
+      <section class="card-signUp">
+        <div>
+          <div class="icon-coderplace">
+            <img src="assets/img/logo-no_definido__1_-removebg-preview.png" alt="Ícono CoderPlace">
+           
+          </div>
+          <h4 class="welcome">¡Registrate!</h4>
+        </div>
+        <div class="container-inputs">
+          <form id="signup-form">
+            <input type="text" placeholder="nickname" class="input-login" id="signup-names" autocomplete="off">
+            <input type="email" placeholder="Correo" class="input-login" id="signup-email" autocomplete="off">
+            <input type="password" placeholder="Contraseña" class="input-login" id="signup-password">
+            <div class="terms">
+              <input type="checkbox" id="termConditions" class="termConditions" />
+              <label for="termConditions">Acepto los <a  href="assets/doc/Políticas de privacidad/Políticas de privacidad.pdf" target="_blank" class="poli">Términos, Condiciones y Política de Privacidad.</a></label>
+            </div>
+            <button type="submit" class="sign-up" id="btnSignUp">Registrarse</button>
+         </form>
+         <br><br>
+         <div class="oscuro">
+          <div class="col text-center">
+              <label id="switch2" class="switch">
+                  <input type="checkbox">
+                  <span class="slider round"></span>
+              </label>
+          </div>
+      </div> 
+        </div>
+        <span class="alertLogInSignUp" id="alertLogInSignUp"></span>
+        <div class="register">
+         
+
+          <p>¿Ya tienes una cuenta?<a id="InicioSesion" href='#/login'>Inicia Sesión</a></p>
+      </section>
+      
+    </div>
+  </div></main>
+
+    <script src="https://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script><div></div>
+    <script src="https://kit.fontawesome.com/7e57db430e.js" crossorigin="anonymous"></script>
+    <!-- CDN Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- CDN jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- Se agrega el CDN de Firebase, agregar los demas CDN (jquery y bootstrap)-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <!-- js personalizado -->
+        <script type="module"src="main.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/auth/googleLogin.js" type="module"></script>
+        <script src="assets/js/oscuro.js"></script>
+        <script src="assets/js/coment.js"></script>
+        <script src="assets/js/megusta.js"></script>
+
+  </body>
+</html>
